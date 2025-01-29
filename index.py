@@ -1,4 +1,3 @@
-# © https://t.me/CyniteBackup
 import os
 from io import BytesIO
 from queue import Queue
@@ -7,7 +6,6 @@ from flask import Flask, request
 from telegram import Bot, Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CommandHandler, MessageHandler, Filters, CallbackQueryHandler, Dispatcher
 from movies_scraper import search_movies, get_movie
-
 
 TOKEN = os.getenv("TOKEN")
 URL = "https://123bot.vercel.app/"
